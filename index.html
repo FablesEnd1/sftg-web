@@ -286,12 +286,6 @@
 
         loadingBar.style.display = "none";
 
-        document.querySelector(
-          "#unity-fullscreen-button"
-        ).onclick = () => {
-          unityInstance.SetFullscreen(1);
-        };
-
         console.log("[Unity] Game loaded successfully");
 
       } catch (error) {
